@@ -19,13 +19,13 @@ public class DeleteBasket extends AbstractPage{
     private WebElement navigation;
     @FindBy(xpath = "//div[@id='container']/div/div[2]/div/div/div/ul/li[4]/span")
     private WebElement container;
-    @FindBy(linkText = "Холодильники")
+    @FindBy(linkText = "РҐРѕР»РѕРґРёР»СЊРЅРёРєРё")
     private WebElement linkText;
     @FindBy(css = "div.schema-product__title > a > span")
     private WebElement product;
-    @FindBy(linkText = "В корзину")
+    @FindBy(linkText = "Р’ РєРѕСЂР·РёРЅСѓ")
     private WebElement linkText1;
-    @FindBy(linkText = "1 товар")
+    @FindBy(linkText = "1 С‚РѕРІР°СЂ")
     private WebElement linkText2;
     @FindBy(css = "a.cart-product__remove")
     private WebElement product1;
@@ -63,6 +63,6 @@ public class DeleteBasket extends AbstractPage{
     }
 
     public boolean isdeletebasket(){
-        return description.getText().contains("Ваша корзина пуста. Перейдите в каталог");
+        return description.getText().contains("Р’Р°С€Р° РєРѕСЂР·РёРЅР° РїСѓСЃС‚Р°. РџРµСЂРµР№РґРёС‚Рµ РІ РєР°С‚Р°Р»РѕРі");
     }
 }

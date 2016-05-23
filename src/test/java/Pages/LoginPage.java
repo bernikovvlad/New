@@ -16,7 +16,7 @@ public class LoginPage extends AbstractPage{
     private WebElement pass;
     @FindBy(xpath = "(//button[@type='submit'])[2]")
     private WebElement button;
-    @FindBy(linkText = "Выйти")
+    @FindBy(linkText = "Р’С‹Р№С‚Рё")
     private WebElement linkText;
     @FindBy(linkText = "ffaannkkyy@rambler.ru")
     private WebElement automation_test1;

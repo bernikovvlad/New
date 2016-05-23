@@ -13,7 +13,7 @@ public class Compare extends AbstractPage{
     private WebElement checkbox;
     @FindBy(xpath = "//div[@id='schema-products']/div[2]/div/div/div/div/label/span/span")
     private WebElement compare_products;
-    @FindBy(linkText = "2 товара в сравнении")
+    @FindBy(linkText = "2 С‚РѕРІР°СЂР° РІ СЃСЂР°РІРЅРµРЅРёРё")
     private WebElement linkText1;
     @FindBy(css = "h1.b-offers-title")
     private WebElement title;
@@ -37,6 +37,6 @@ public class Compare extends AbstractPage{
     }
 
     public boolean iscompare(){
-        return title.getText().contains("Сравнение товаров");
+        return title.getText().contains("РЎСЂР°РІРЅРµРЅРёРµ С‚РѕРІР°СЂРѕРІ");
     }
 }

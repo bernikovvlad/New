@@ -15,9 +15,9 @@ public class SendMessage extends AbstractPage{
     private WebElement pas;
     @FindBy(xpath = "(//button[@type='submit'])[2]")
     private WebElement button;
-    @FindBy(linkText = "Cообщения")
+    @FindBy(linkText = "CРѕРѕР±С‰РµРЅРёСЏ")
     private WebElement linkText;
-    @FindBy(linkText = "Написать")
+    @FindBy(linkText = "РќР°РїРёСЃР°С‚СЊ")
     private WebElement linkText1;
     @FindBy(id = "compose_uname")
     private WebElement uname;
@@ -27,7 +27,7 @@ public class SendMessage extends AbstractPage{
     private WebElement textt;
     @FindBy(name = "post")
     private WebElement post;
-    @FindBy(linkText = "Отправленные")
+    @FindBy(linkText = "РћС‚РїСЂР°РІР»РµРЅРЅС‹Рµ")
     private WebElement linkText2;
     @FindBy(id = "l_sentbox_tm")
     private WebElement sentbox;

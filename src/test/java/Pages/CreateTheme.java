@@ -17,7 +17,7 @@ public class CreateTheme extends AbstractPage{
     private WebElement button1;
     @FindBy(xpath = "//div[@id='container']/div/div[2]/header/div/div/nav/ul/li[6]/a/span")
     private WebElement container;
-    @FindBy(linkText = "Операторы связи")
+    @FindBy(linkText = "РћРїРµСЂР°С‚РѕСЂС‹ СЃРІСЏР·Рё")
     private WebElement linkText;
     @FindBy(id = "submit_text")
     private WebElement submit_text;
@@ -29,7 +29,7 @@ public class CreateTheme extends AbstractPage{
     private WebElement post;
     @FindBy(css = "span.project-navigation__sign")
     private WebElement navigation;
-    @FindBy(linkText = "меньше минуты назад")
+    @FindBy(linkText = "РјРµРЅСЊС€Рµ РјРёРЅСѓС‚С‹ РЅР°Р·Р°Рґ")
     private WebElement linkText2;
 
     public CreateTheme(WebDriver driver)

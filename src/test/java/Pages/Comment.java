@@ -18,9 +18,9 @@ public class Comment extends AbstractPage{
     private WebElement button1;
     @FindBy(xpath = "//div[@id='container']/div/div[2]/header/div/div/nav/ul/li[6]/a/span")
     private WebElement container;
-    @FindBy(linkText = "Операторы связи")
+    @FindBy(linkText = "РћРїРµСЂР°С‚РѕСЂС‹ СЃРІСЏР·Рё")
     private WebElement linkText1;
-    @FindBy(linkText = "Операторы связи")
+    @FindBy(linkText = "РћРїРµСЂР°С‚РѕСЂС‹ СЃРІСЏР·Рё")
     private WebElement linkText2;
     @FindBy(xpath = "//div[@id='minWidth']/div/div[2]/div[2]/div/div[4]/span/a/span/span")
     private WebElement container1;

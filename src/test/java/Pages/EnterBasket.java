@@ -19,13 +19,13 @@ public class EnterBasket extends AbstractPage{
     private WebElement navigation;
     @FindBy(xpath = "//div[@id='container']/div/div[2]/div/div/div/ul/li[4]/span")
     private WebElement container;
-    @FindBy(linkText = "Холодильники")
+    @FindBy(linkText = "РҐРѕР»РѕРґРёР»СЊРЅРёРєРё")
     private WebElement linkText;
     @FindBy(css = "div.schema-product__title > a > span")
     private WebElement product;
-    @FindBy(linkText = "В корзину")
+    @FindBy(linkText = "Р’ РєРѕСЂР·РёРЅСѓ")
     private WebElement linkText1;
-    @FindBy(linkText = "1 товар")
+    @FindBy(linkText = "1 С‚РѕРІР°СЂ")
     private WebElement linkText2;
 
     public EnterBasket(WebDriver driver)

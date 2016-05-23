@@ -10,7 +10,7 @@ public class Search extends AbstractPage{
     private final String BASE_URL = "https://www.onliner.by";
     @FindBy(name = "query")
     private WebElement query;
-    @FindBy(linkText = "Холодильники")
+    @FindBy(linkText = "РҐРѕР»РѕРґРёР»СЊРЅРёРєРё")
     private WebElement refreger;
 
     public Search(WebDriver driver)
